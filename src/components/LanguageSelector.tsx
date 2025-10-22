@@ -11,11 +11,11 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ isDarkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const languages = [
-    { code: 'sr' as Language, name: 'Srpski', flag: '🇷🇸' },
     { code: 'en' as Language, name: 'English', flag: '🇺🇸' },
     { code: 'fr' as Language, name: 'Français', flag: '🇫🇷' },
     { code: 'de' as Language, name: 'Deutsch', flag: '🇩🇪' },
-    { code: 'it' as Language, name: 'Italiano', flag: '🇮🇹' }
+    { code: 'it' as Language, name: 'Italiano', flag: '🇮🇹' },
+    { code: 'sr' as Language, name: 'Srpski', flag: '🇷🇸' }
   ];
 
   const currentLanguage = languages.find(lang => lang.code === language);

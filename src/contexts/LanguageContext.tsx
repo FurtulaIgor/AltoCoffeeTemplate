@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-export type Language = 'sr' | 'en' | 'fr' | 'de' | 'it';
+export type Language = 'en' | 'fr' | 'de' | 'it' | 'sr';
 
 interface LanguageContextType {
   language: Language;
@@ -410,7 +410,7 @@ interface LanguageProviderProps {
 }
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('sr');
+  const [language, setLanguage] = useState<Language>('en');
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem('language') as Language;
