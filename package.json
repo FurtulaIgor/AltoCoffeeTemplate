@@ -4,7 +4,17 @@
   "version": "1.0.0",
   "type": "module",
   "description": "A modern, responsive website template for coffee shops, cafes, and coworking spaces",
-  "keywords": ["coffee", "cafe", "restaurant", "coworking", "website", "template", "react", "typescript", "tailwind"],
+  "keywords": [
+    "coffee",
+    "cafe",
+    "restaurant",
+    "coworking",
+    "website",
+    "template",
+    "react",
+    "typescript",
+    "tailwind"
+  ],
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
   "homepage": "https://github.com/yourusername/alto-coffee-template#readme",
